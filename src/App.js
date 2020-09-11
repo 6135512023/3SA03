@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import WordCard from './wordcard';
 import './App.css';
-
+const word = "Hello";
 function App() {
-  return (
-    <div>
-      Hello world 
-    </div>
-  );
+ return (
+ <div>
+     {
+        <div>
+       <WordCard value="hello"/>
+        </div>
+     }
+ </div>
+ );
 }
-
 export default App;
